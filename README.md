@@ -1,7 +1,9 @@
 # LaneDetection
 ## _By 569A Team_
 
-Dataset provided by: https://www.kaggle.com/c/pku-autonomous-driving/overview
+Dataset provided by: https://www.kaggle.com/c/pku-autonomous-driving/overview </br>
+Another Dataset link: http://www.cvlibs.net/datasets/kitti/raw_data.php?type=road </br>
+   Download the 2011_09_26_drive_0027 (0.7 GB),  [synced+rectified data] 
 
 ## Features
 - Can detect lanes from images/videos
