@@ -1,21 +1,28 @@
 # LaneDetection
 ## _By 569A Team_
 
-Dataset provided by: https://www.kaggle.com/c/pku-autonomous-driving/overview </br>
-Another Dataset link: http://www.cvlibs.net/datasets/kitti/raw_data.php?type=road </br>
-   Download the 2011_09_26_drive_0027 (0.7 GB),  [synced+rectified data] 
+Dataset provided by: tusimple dataset (~22 GB) https://github.com/TuSimple/tusimple-benchmark/issues/3 </br>
+
 
 ## Features
-- Can detect lanes from images/videos
-- More features will be added ...
+- Can detect lanes from images
 
 ## Before You Run
-
+Check the requirements.txt. Program requirements are listed in requirements.txt
 
 ## Installation
-Program requires [python](https://www.python.org/downloads/windows/) v3.x to run.
-
-More will be here ...
+Run this command to generate data pickle file
+```sh
+python data_preprocess.py
+```
+Run this to train a model
+```sh
+python segnet_model.py
+```
+Run this to load pre-trained model for testing
+```sh
+python load_model.py
+```
 
 ## License
-Kaggle
+Github
