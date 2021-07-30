@@ -9,6 +9,9 @@ Dataset provided by: tusimple dataset (~22 GB) https://github.com/TuSimple/tusim
 
 ## Before You Run
 Check the requirements.txt. Program requirements are listed in requirements.txt
+```sh
+pip install -r requirements.txt
+```
 
 ## Installation
 Run this command to generate data pickle file
